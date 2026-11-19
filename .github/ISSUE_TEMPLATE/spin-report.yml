@@ -1,0 +1,37 @@
+name: S.P.I.N. engineering report
+description: Report an engineering issue using the S.P.I.N. convention
+title: "[SPIN] "
+body:
+  - type: markdown
+    attributes:
+      value: Subject and Priority are required. Impact and Note are optional.
+  - type: input
+    id: subject
+    attributes:
+      label: Subject
+      description: Include the responsible team in the subject when known.
+      placeholder: "@Team | Brief description"
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Critical
+        - High
+        - Normal
+        - Low
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Optional. What is affected?
+  - type: textarea
+    id: note
+    attributes:
+      label: Note
+      description: Optional. Add concise, non-sensitive evidence or context.
+

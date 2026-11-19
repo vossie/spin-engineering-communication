@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Example S.P.I.N. message</title>
+  <desc id="desc">A fictional release blocker message with Subject, Priority, Impact and Note.</desc>
+  <rect width="960" height="420" rx="28" fill="#f8fafc"/>
+  <rect x="35" y="35" width="890" height="350" rx="20" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="75" y="95" fill="#1d4ed8" font-size="22" font-weight="700">SUBJECT</text>
+    <text x="220" y="95" fill="#0f172a" font-size="24">@Backend | Correct leaderboard payout response</text>
+    <line x1="75" y1="125" x2="885" y2="125" stroke="#e2e8f0"/>
+    <text x="75" y="170" fill="#b45309" font-size="22" font-weight="700">PRIORITY</text>
+    <text x="220" y="170" fill="#0f172a" font-size="24">High | UAT | Release Blocker</text>
+    <line x1="75" y1="200" x2="885" y2="200" stroke="#e2e8f0"/>
+    <text x="75" y="245" fill="#0f766e" font-size="22" font-weight="700">IMPACT</text>
+    <text x="220" y="245" fill="#0f172a" font-size="22">Frontend integration testing cannot complete.</text>
+    <text x="220" y="277" fill="#0f172a" font-size="22">Scheduled release validation is blocked.</text>
+    <line x1="75" y1="305" x2="885" y2="305" stroke="#e2e8f0"/>
+    <text x="75" y="350" fill="#15803d" font-size="22" font-weight="700">NOTE</text>
+    <text x="220" y="350" fill="#0f172a" font-size="22">Contract mismatch recorded in fictional ticket ENG-1042.</text>
+  </g>
+</svg>
+
