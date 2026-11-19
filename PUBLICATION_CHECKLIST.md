@@ -14,7 +14,7 @@
 
 ## Repository
 
-- [ ] Create `spin-engineering-communication` as a private repository first.
+- [ ] Create `vossie/spin-engineering-communication` as a private repository first.
 - [ ] Push the prepared main branch.
 - [ ] Enable private vulnerability reporting.
 - [ ] Configure branch protection and required Pages workflow checks.
